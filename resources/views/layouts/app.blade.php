@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.webp') }}">
 </head>
 
 <body>
@@ -73,9 +74,9 @@
                                 and classic clocks. Quality accessories for everyday style.</p>
                         </div>
                         <ul class="footer-social md-mb-30">
-                            <li><a href="#" aria-label="Facebook"><span><i class="fa fa-facebook"></i></span></a></li>
-                            <li><a href="#" aria-label="Instagram"><span><i class="fa fa-instagram"></i></span></a></li>
-                            <li><a href="#" aria-label="YouTube"><span><i class="fa fa-youtube"></i></span></a></li>
+                            <li><a href="#" aria-label="Facebook"><img src="{{ asset('images/icons/facebook.webp') }}" alt="facebook"></a></li>
+                            <li><a href="#" aria-label="Instagram"><img src="{{ asset('images/icons/instagram.webp') }}" alt="instagram"></a></li>
+                            <li><a href="#" aria-label="YouTube"><img src="{{ asset('images/icons/youtube.webp') }}" alt="youtube"></a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">

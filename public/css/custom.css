@@ -95,13 +95,11 @@ main {
 	height: 36px;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid #e5e7eb;
-	border-radius: 50%;
-	color: #334155;
-	transition: all .2s ease;
 }
 
-.footer-top .footer-social a:hover { background: #f8fafc; }
+.footer-top .footer-social img {
+	width: 30px;
+}
 
 .footer-top .site-map,
 .footer-top .address-widget {
